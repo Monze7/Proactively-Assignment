@@ -1,4 +1,11 @@
 {
+  "name": "proactivity",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
   "dependencies": {
     "@prisma/client": "^6.9.0",
     "express": "^5.1.0",
